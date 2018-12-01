@@ -1,65 +1,56 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>looking for api</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
-</head>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css"
+    />
+  </head>
 
-<body>
+  <body>
     <style>
-        ol {
-            list-style-type: decimal;
-        }
+      ol {
+        list-style-type: decimal;
+      }
     </style>
-    <h1 class="title">Steam Publisher api : D </h1>
+    <h1 class="title">Steam Publisher api : D</h1>
     <p>Click the blank to load:P</p>
+    <p>
+      // install
+      https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=es
+      // for Allow-Control-Allow-Origin: *
+    </p>
     <div class="container">
+      <a id="start" class="button is-large">
+        <span class="icon is-medium"> <i class="fab fa-check"></i> </span>
+        <span>Search For Publishers</span>
+      </a>
 
-        <a id="start" class="button is-large">
-            <span class="icon is-medium">
-                <i class="fab fa-check"></i>
-            </span>
-            <span>Search For Publishers</span>
-        </a>
-
-        <table class="table">
-            <thead>
-                <tr>
-                    <th><abbr title="Position">AppID</abbr></th>
-                    <th><abbr title="Position">GameName</abbr></th>
-                    <th><abbr title="Played">Publisher</abbr></th>
-                    <th><abbr title="Played">Website</abbr></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="Pos">
-
-                    </td>
-                    <td id="GameName">
-
-                    </td>
-                    <td id="Publisher">
-
-                    </td>
-                    <td id="link">
-
-
-                    </td>
-                </tr>
-
-            </tbody>
-        </table>
-
+      <table class="table">
+        <thead>
+          <tr>
+            <th><abbr title="Position">AppID</abbr></th>
+            <th><abbr title="Position">GameName</abbr></th>
+            <th><abbr title="Played">Publisher</abbr></th>
+            <th><abbr title="Played">Website</abbr></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="Pos"></td>
+            <td id="GameName"></td>
+            <td id="Publisher"></td>
+            <td id="link"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/index.js"></script>
-</body>
-
+  </body>
 </html>
