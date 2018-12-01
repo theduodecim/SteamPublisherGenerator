@@ -1,12 +1,10 @@
 /*
 Register Steam Web API Key
 Your Steam Web API Key
-Key: 8EF2D4406AB4FE9D3C9AA2D3282523C4
 https://apitester.com/
 https://api.steampowered.com/ISteamApps/GetAppList/v2/
-Key = 8EF2D4406AB4FE9D3C9AA2D3282523C4
 https://partner.steamgames.com/doc/webapi/ISteamUser
-Domain Name: duodecim
+
 https://partner.steamgames.com/home
 https://stackoverflow.com/questions/38422824/get-steam-api-bundle-json
 http://store.steampowered.com/api/appdetails?appids=49520
